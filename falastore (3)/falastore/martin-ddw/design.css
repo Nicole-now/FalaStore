@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+  #CUERPO DE LA PAGINA
+\*------------------------------------*/
+
+body {
+  
+}
+/*------------------------------------*\
+  #COMPONENTES
+\*------------------------------------*/
+
+.header-border {
+  background-color: #000000;
+  padding: 3px;
+}
+
+
+.menu-container {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: #40207A;
+
+}
+
+/*------------------------------------*\
+  #ENVOLTORIOS
+\*------------------------------------*/
+
+.wrapper-logo {
+  width: 20%;
+}
+
+.wrapper-nav {
+  width: 40%;
+}
+
+.wrapper-actions {
+  width: 20%;
+}
+
+
+/*------------------------------------*\
+  #CONTENIDO DEL NAVEGADOR
+\*------------------------------------*/
+
+.nav { 
+  margin: 20px 12px 0 12px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+.nav__item { margin: 0 15px 0 15px }
+
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration: underline 0.15em rgb(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+  font-size: 15px;
+}
+
+.nav__link:hover {
+  text-decoration: underline 0.15em rgb(255, 255, 255, 1);
+}
+
+/*------------------------------------*\
+  #ACCIONES DE USUARIO
+\*------------------------------------*/
+
+.actions__user {
+  display: flex;
+}
+
+.actions__user-icon {
+  margin: 2px;
+}
+
+.actions {
+  display: flex;
+  margin-top: 12px;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.actions__user,
+.actions__car {
+  margin: 0 2px 0 2px;
+}
+
+.actions__car {
+  display: flex;
+}
+
+
+.actions__user-my_account {
+  font-size: 15px;
+
+}
+
+.actions__user-sign_in {
+  font-size: 12px;
+}
+
+.actions__car-icon {
+  margin: 8px;
+  font-size: 20px;
+}
+
+
+/*------------------------------------*\
+  #ACCIONES DE USUARIO
+\*------------------------------------*/
+
+.shop-container {
+  margin-top: 0.9375rem;
+}
+
+.container {
+  margin: 0 13% 0 13%;
+  
+}
+
+.nav-breadcrumb {
+  margin-bottom: 0.9375rem;
+}
+
+.nav-breadcrumb__menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-breadcrumb__item {
+  font-size: 0.75rem;
+}
+
+.nav-breadcrumb__link {
+  text-decoration: none;
+}
+
+/*------------------------------------*\
+  #ACCIONES DE USUARIO
+\*------------------------------------*/
+.content-shop {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.product-card__stock {
+  font-size: 0.85rem;
+  color: #4caf50;
+}
+
+.column-shop-1 {
+  margin: 0 12px 0 0;
+}
+
+.column-shop-2 {
+  margin: 0 12px 0 0;
+}
+
+/*------------------------------------*\
+  #ACCIONES DE USUARIO
+\*------------------------------------*/
+.content-footer {
+  margin-top: 80px;
+  height: 120px;
+  background-color: #40207A;
+  
+}
+
+.container-footer {
+  display: flex;
+}
+
+/*------------------------------------*\
+  #PIE DE PAGINA
+\*------------------------------------*/
+
+.content-footer {
+  height: 120px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #40207A;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.content-footer__text {
+  margin-top: 30px;
+}
+
+.logo__link {
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+}
